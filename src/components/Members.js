@@ -1,20 +1,15 @@
 import React from 'react';
 
+function Members(){
 
-class Members extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-    };
-  }
+  return (
 
-  render() {
-    return (
-      <div className="members">
-          this is where we put our cool brothers!
-      </div>
-    );
-  }
+    <div className="members">
+
+      Whats up brothers
+        
+    </div>
+  );
 }
 
 export default Members;

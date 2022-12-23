@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../style/nav.css";
 import thtLogo from "../images/tht logo.png";
 
-export default function Navbar() {
+function Navbar() {
 
     return (
         <div className="navbar navbar-default fixed-top navbar-expand-sm navbar-light bg-light">
@@ -38,8 +38,15 @@ export default function Navbar() {
                 Alumni
               </Link>
             </li>
+            <li className="navbar-item">
+              <Link to= "/profile">
+                Sign in/Sign out
+              </Link>
+            </li>
           </div>
 
         </div>
     );
 }
+
+export default Navbar;
