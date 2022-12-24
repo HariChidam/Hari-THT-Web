@@ -1,3 +1,14 @@
 .icon-item {
-    background-color: #f1dbb6;
+    background-color: #fafaf9;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(178, 160, 59);
+}
+
+.icon-company:hover {
+    opacity: .75;
+}
+
+.icon-name:hover {
+    opacity: .75;
 }

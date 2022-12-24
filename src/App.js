@@ -6,6 +6,8 @@ import Members from "./components/Members";
 import NonMembers from "./components/NonMembers";
 import Rush from "./components/Rush";
 import Alumni from "./components/Alumni";
+import Leadership from "./components/Leadership";
+import Footer from "./components/Footer";
 import './style/App.css';
 import HomePage from "./components/HomePage";
 import firebase from 'firebase/compat/app';
@@ -44,6 +46,8 @@ function App() {
                   
                   <Route path="/homepage" element={<HomePage />}/>
 
+                  <Route path="/leadership" element={<Leadership />}/>
+
                   <Route path="/members" element={user ? <Members/> : <NonMembers/>}/>
                   
                   <Route path="/rush" element={<Rush />}/>
@@ -55,6 +59,7 @@ function App() {
                   <Route path="/profile" element={<Profile/>}/>
 
                 </Routes>
+              <Footer/>
             </div>
           </Router>
       </React.Fragment>

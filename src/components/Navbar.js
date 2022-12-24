@@ -19,8 +19,13 @@ function Navbar() {
               </Link>
             </li>
             <li className = "navbar-item">
+              <Link to= "/leadership">
+                Leadership
+              </Link>
+            </li>
+            <li className = "navbar-item">
               <Link to= "/members">
-                Members
+                Brotherhood
               </Link>
             </li>
             <li className = "navbar-item">

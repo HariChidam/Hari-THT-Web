@@ -1,14 +1,20 @@
-
-.alumni-container {
+.alumni{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
-
-.alumni-item {
+.alumni-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.alumni-item{
     display: flex;
     align-items: center;
-    justify-content: space-around ;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+.alumni-header{
+    font-size: 100px;
 
+}
