@@ -8,14 +8,14 @@ function Navbar() {
     return (
         <div className="navbar navbar-default fixed-top navbar-expand-sm navbar-light bg-light">
           <div className = "navbar-container">
-            <li className = "navbar-item">
+            <li className = "navbar-item" >
               <Link to="/homepage">
                 <img src={thtLogo} height="45" alt="tht-logo" />
               </Link>
             </li>
             <li className = "navbar-item">
               <Link to= "/homepage">
-                Home
+                About Us
               </Link>
             </li>
             <li className = "navbar-item">
@@ -38,13 +38,14 @@ function Navbar() {
                 Alumni
               </Link>
             </li>
+          </div>
+          <div className = "navbar-container">
             <li className="navbar-item">
-              <Link to= "/profile">
-                Sign in/Sign out
-              </Link>
+                <Link to= "/profile">
+                  Profile
+                </Link>
             </li>
           </div>
-
         </div>
     );
 }

@@ -6,8 +6,6 @@ import Members from "./components/Members";
 import NonMembers from "./components/NonMembers";
 import Rush from "./components/Rush";
 import Alumni from "./components/Alumni";
-import SignIn from "./components/SignIn";
-import SignOut from "./components/SignOut";
 import './style/App.css';
 import HomePage from "./components/HomePage";
 import firebase from 'firebase/compat/app';
@@ -15,8 +13,8 @@ import FirebaseContext from "./contexts/FirebaseContext";
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 
-import {useAuthState, useSignInWithGoogle} from 'react-firebase-hooks/auth'
-import {useCollectionData} from 'react-firebase-hooks/firestore'
+import {useAuthState} from 'react-firebase-hooks/auth'
+import Profile from "./components/Profile";
 
 firebase.initializeApp({
   apiKey: "AIzaSyCIPj-Xpk2LbE-EKOkPkg-z-N5y7ZeEmb4",
@@ -28,8 +26,7 @@ firebase.initializeApp({
   measurementId: "G-08L70MDT71"
 })
 
- export const auth = firebase.auth()
- const firestore = firebase.firestore()
+ const auth = firebase.auth()
  
 
 
@@ -55,7 +52,7 @@ function App() {
 
                   <Route path="/alumni" element={<Alumni/>}/>
 
-                  <Route path="/profile" element={user ? <SignOut/>  : <SignIn />}/>
+                  <Route path="/profile" element={<Profile/>}/>
 
                 </Routes>
             </div>
