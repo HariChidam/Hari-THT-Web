@@ -1,7 +1,12 @@
 import React from 'react';
 import "../style/homepage.css";
 import Emma from "../images/EmmaForesi.jpeg";
-
+import PTR from "../images/PTR.jpg"
+import Pillar from './Pillar';
+import profesh from "../images/profession.jpg";
+import serve from "../images/service.jpg";
+import bro from "../images/brohood.jpeg";
+import dei from "../images/DEI.png";
 
 const handleInterestForm = () => {
     window.open('https://docs.google.com/forms/d/e/1FAIpQLScUuegJbkw1w_U_dkYXA4YPSFpPpQhyC5fUY78FBgOFkY80Xg/viewform?usp=sf_link')
@@ -12,7 +17,7 @@ function HomePage() {
     <div>
         <div className='section-1'>
             <h3 className='section-2'>
-                Theta Tau @Umich
+                Theta Tau @UMich
             </h3>
             <p className='section-3'> 
                 Michigan's Leading Professional Engineering Fraternity
@@ -56,13 +61,26 @@ function HomePage() {
           
         </div>
 
+        
+
         <div className='history'>
-          <h3> History</h3>
-          <div className='history-1'>
-            <p> We have been around for years</p>
-            <img src= {Emma}> 
-            </img>
+          <div className='history-2'>
+          <h3 className='history-1'> History</h3>
+          <p className='history-message'> Theta Tau (THT) is a National Co-ed Professional Engineering Fraternity. It was founded on October 15th, 1904 at the Univeristy of Minnesota. Today, the Theta Tau National Chapter is comprised of 113 Collegiate and Alumni Chapters across the country. Our chapter, Theta Gamma was founded in 1999 and has been the leading professional engineering fraternity since.</p>
           </div>
+          <img src= {PTR} style= {{width: "30%", height: "30%"}}> 
+          </img>
+        </div>
+        <div className='pillars'>
+          <h3 className='pillars-header'>
+            Pillars Of Theta Tau
+          </h3>
+          <div className='pillars-container'>
+            <Pillar name="Service" image ={serve} description = "Members of Theta Tau make an impact on the world around them through service and philanthropic acts."/>
+            <Pillar name="Brotherhood" image ={bro} description = "Members of Theta Tau make friendships and connections that they will maintain for the rest of their lives."/>
+            <Pillar name="Profession" image ={profesh} description = "Members of Theta Tau are prepared for the job market, networking, and applying their learning in their work."/>
+            <Pillar name="DEI" image ={dei} description = "Members of Theta Tau will be exposed to different perspectives and be a part of an encouraging and inclusive communtiy."/>
+        </div>
         </div>
     </div>
   );
