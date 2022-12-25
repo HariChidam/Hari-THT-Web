@@ -9,7 +9,29 @@ function Alumni() {
             Theta Tau Alumni 
           </h3>
           <div className="alumni-container">
-             <div className = "alumni-item">
+                <div className = "alumni-item">
+                    <Icon
+                        image = "/alumni/Hari.JPG"
+                        name = "Hariharan Chidambaram"
+                        role = "Software Engineering Intern"
+                        pc = "Psi Beta"
+                        company = "InfinStor"
+                        companyLink = "https://www.infinstor.com/"
+                        link = "https://www.linkedin.com/in/hariharan-chidambaram/"
+                    />
+                </div>
+                <div className = "alumni-item">
+              <Icon
+                  image = "/alumni/Hari.JPG"
+                  name = "Hariharan Chidambaram"
+                  role = "Software Engineering Intern"
+                  pc = "Psi Beta"
+                  company = "InfinStor"
+                  companyLink = "https://www.infinstor.com/"
+                  link = "https://www.linkedin.com/in/hariharan-chidambaram/"
+                />
+                </div>
+                <div className = "alumni-item">
                 <Icon
                     image = "/alumni/Hari.JPG"
                     name = "Hariharan Chidambaram"
@@ -18,30 +40,8 @@ function Alumni() {
                     company = "InfinStor"
                     companyLink = "https://www.infinstor.com/"
                     link = "https://www.linkedin.com/in/hariharan-chidambaram/"
-                />
-             </div>
-             <div className = "alumni-item">
-              <Icon
-                  image = "/alumni/Hari.JPG"
-                  name = "Hariharan Chidambaram"
-                  role = "Software Engineering Intern"
-                  pc = "Psi Beta"
-                  company = "InfinStor"
-                  companyLink = "https://www.infinstor.com/"
-                  link = "https://www.linkedin.com/in/hariharan-chidambaram/"
-                />
-            </div>
-            <div className = "alumni-item">
-              <Icon
-                  image = "/alumni/Hari.JPG"
-                  name = "Hariharan Chidambaram"
-                  role = "Software Engineering Intern"
-                  pc = "Psi Beta"
-                  company = "InfinStor"
-                  companyLink = "https://www.infinstor.com/"
-                  link = "https://www.linkedin.com/in/hariharan-chidambaram/"
-                />
-            </div>
+                    />
+                </div>
             </div>
       </div>
   );

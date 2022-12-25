@@ -46,15 +46,3 @@
     padding: 1rem 2rem;
     font-size: 1.1em;
 }
-
-@media screen and (max-width: 575px) {
-    .vertical-column {
-        width: 5vw;
-        background-color: #883a3a;
-        height: inherit;
-    }
-
-    .faq-info-container {
-        width: 90vw;
-    }
-}

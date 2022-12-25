@@ -36,7 +36,7 @@ function HomePage() {
         <br></br>
 
         <div className='message'>
-          <img style= {{width: "30%", height: "30%"}} src={Emma}>
+          <img style= {{width: "40%", height: "auto"}} src={Emma}>
           </img> 
 
           <p className = "message-1">

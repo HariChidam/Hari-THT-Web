@@ -1,7 +1,9 @@
 .section-1{
+    padding-top: 50px;
     background-image: url('../images/ProfessionalGroupPic.jpg');
     background-size: cover;
-    height: 700px;
+    height: 600px;
+
 }
 
 .section-2{
@@ -43,6 +45,7 @@
     color: white;
     width: 700px;
     text-align: left;
+    margin-top: 0;
 }
 
 .history{
@@ -95,7 +98,6 @@
     font-size: 40px;
     font-weight: 300;
     color: black;
-    text-shadow: 0 0 10px black;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;

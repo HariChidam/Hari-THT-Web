@@ -3,8 +3,11 @@
     flex-direction: row;
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 li {
@@ -20,14 +23,15 @@ li {
 }
 
 .navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-right: 50px;
 }
 
 img {
-    margin-left: 0.5vw;
+  margin-left: 0.5vw;
 }
 
 h3 {
