@@ -1,0 +1,15 @@
+.brotherhood{
+    padding-top: 50px;
+}
+
+.com-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.com-icons .Com-item {
+
+    margin: 20px 0;
+  } 

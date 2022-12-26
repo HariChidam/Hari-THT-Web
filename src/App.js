@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import FAQ from "./components/FAQ";
-import Members from "./components/Members";
+import Brotherhood from "./components/Brotherhood";
 import NonMembers from "./components/NonMembers";
 import Rush from "./components/Rush";
 import Alumni from "./components/Alumni";
@@ -48,7 +48,7 @@ function App() {
 
                   <Route path="/leadership" element={<Leadership />}/>
 
-                  <Route path="/members" element={user ? <Members/> : <NonMembers/>}/>
+                  <Route path="/brotherhood" element={user ? <Brotherhood/> : <NonMembers/>}/>
                   
                   <Route path="/rush" element={<Rush />}/>
                   

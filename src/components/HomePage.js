@@ -66,7 +66,7 @@ function HomePage() {
         <div className='history'>
           <div className='history-2'>
           <h3 className='history-1'> History</h3>
-          <p className='history-message'> Theta Tau (THT) is a National Co-ed Professional Engineering Fraternity. It was founded on October 15th, 1904 at the Univeristy of Minnesota. Today, the Theta Tau National Chapter is comprised of 113 Collegiate and Alumni Chapters across the country. Our chapter, Theta Gamma was founded in 1999 and has been the leading professional engineering fraternity since.</p>
+          <p className='history-message'> Theta Tau (ΘT) is a National Co-ed Professional Engineering Fraternity. It was founded on October 15th, 1904 at the Univeristy of Minnesota. Today, the Theta Tau National Chapter is comprised of 113 Collegiate and Alumni Chapters across the country. Our chapter, Theta Gamma was founded in 1999 and has been the leading professional engineering fraternity since.</p>
           </div>
           <img src= {PTR} style= {{width: "30%", height: "30%"}}> 
           </img>

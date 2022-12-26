@@ -24,7 +24,7 @@ function Navbar() {
               </Link>
             </li>
             <li className = "navbar-item">
-              <Link to= "/members">
+              <Link to= "/brotherhood">
                 Brotherhood
               </Link>
             </li>

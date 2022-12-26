@@ -3,7 +3,6 @@
     background-image: url('../images/ProfessionalGroupPic.jpg');
     background-size: cover;
     height: 600px;
-
 }
 
 .section-2{
@@ -94,11 +93,10 @@
     padding-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 40px;
     font-weight: 300;
     color: black;
     padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    flex-wrap: wrap;
 }
