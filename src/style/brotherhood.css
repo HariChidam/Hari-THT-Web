@@ -1,5 +1,17 @@
 .brotherhood{
-    padding-top: 50px;
+    
+}
+
+.Header-1{
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+    padding-top: 20%;
+    background-image: url('../images/Retreat.JPG');
+    background-size: cover;
+    margin-left: 0;
+    margin-right: 0;
+    height: 300px;
 }
 
 .com-icons {
@@ -11,5 +23,35 @@
 
 .com-icons .Com-item {
 
-    margin: 20px 0;
-  } 
+    margin-bottom: 20px;
+} 
+
+.container-2{
+    background-color: #f1dbb6;
+}
+
+
+.subheader-1{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    
+}
+
+.subheader-sub{
+    margin-bottom: 0;
+}
+
+.Header-2{
+    padding-top: 20px;
+    color: black;
+    font-size: 50px;
+    text-shadow: 0 0 3px black;
+}
+
+.subheader-2{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+}

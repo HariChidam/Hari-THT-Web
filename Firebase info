@@ -1,0 +1,13 @@
+// import firebase from 'firebase/compat/app';
+// import 'firebase/compat/firestore';
+// import 'firebase/compat/auth';
+
+// firebase.initializeApp({
+//     apiKey: "AIzaSyCIPj-Xpk2LbE-EKOkPkg-z-N5y7ZeEmb4",
+//     authDomain: "tht-website-hari.firebaseapp.com",
+//     projectId: "tht-website-hari",
+//     storageBucket: "tht-website-hari.appspot.com",
+//     messagingSenderId: "1015040403383",
+//     appId: "1:1015040403383:web:664116954b41302a5faa32",
+//     measurementId: "G-08L70MDT71"
+//   })
