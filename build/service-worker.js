@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/THT-Website-Hari/precache-manifest.31c06b56daf91d459dac6eac664d843c.js"
+  "/HariChidam.github.io/precache-manifest.884607d9962717a8e38312854c81744d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/THT-Website-Hari/index.html", {
+workbox.routing.registerNavigationRoute("/HariChidam.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
